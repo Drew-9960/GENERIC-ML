@@ -1,10 +1,10 @@
 ## GENERIC-ML
  
-### SKELETON CODE FOR AZURE DEPLOYMENT - TESTED ON STUDENT DATA
+### SKELETON CODE FOR BASIC PRODUCTION ML
 
 ## Run from terminal:
 
-docker build -t testdockerdrew.azurecr.io/gen-ml:lastest
+docker build -t testdockerdrew.azurecr.io/gen-ml:lastest . 
 
 docker login testdockerdrew.azurecr.io
 
